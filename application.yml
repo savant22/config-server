@@ -1,14 +1,4 @@
-spring:
-  datasource:
-    username: system
-    url: jdbc:oracle:thin:@localhost:1521:xe
-    data-password: tiger
-    driver-class-name: oracle.jdbc.driver.OracleDriver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    
+  
 eureka:
   client:
     register-with-eureka: true
